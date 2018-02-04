@@ -9,7 +9,7 @@
 <p>Swap is an IntelliJ/JetBrains plugin that integrates "Swap" option in editor menu. Swap action copies selected code/text for future use and replace the selected code/text with previous clipboard one.</p>
 <p>&nbsp;</p>
 <h1>How it works:</h1>
-<p><img src="https://github.com/sajjad-ahmed/Swap-IntelliJ-Plugin/download/how-it-works.gif" /></p>
+<p><img src="https://github.com/sajjad-ahmed/Swap-IntelliJ-Plugin/blob/master/download/how-it-works.gif" /></p>
 <p>&nbsp;</p>
 <h1>How to install:</h1>
 <h3>Method 1(from IntelliJ plugin Repository):</h3>
@@ -21,7 +21,7 @@
 <p>&nbsp;</p>
 <h3>Method 2(manual installation):</h3>
 <ul>
-<li>Download the swap.jar from <a href="https://github.com/sajjad-ahmed/Swap-IntelliJ-Plugin/download/">GitHub</a>.</li>
+<li>Download the swap.jar from <a href="https://github.com/sajjad-ahmed/Swap-IntelliJ-Plugin/tree/master/download">GitHub</a>.</li>
 <li>go to File &gt;&gt; Settings &gt;&gt; Plugins &gt;&gt; Install Plugin From Disk</li>
 <li>Select the swap.jar file.</li>
 <li>Then select Ok</li>
