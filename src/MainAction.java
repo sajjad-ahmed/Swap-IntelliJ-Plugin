@@ -52,6 +52,7 @@ public class MainAction extends AnAction
     {
         Editor editor = getEditor(e);
         String selectedText = editor.getSelectionModel().getSelectedText();
+
         Toolkit toolkit = Toolkit.getDefaultToolkit();
         Clipboard clipboard = toolkit.getSystemClipboard();
         String pasteText;
@@ -76,8 +77,8 @@ public class MainAction extends AnAction
             @Override
             protected void run() throws Throwable
             {
-                int start = editorText.indexOf(selectedText);
-                int end = start + selectedText.length();
+                int start = editor.getSelectionModel().getSelectionStart();
+                int end = editor.getSelectionModel().getSelectionEnd();
                 editorDocument.replaceString(start, end, finalPasteText);
             }
         }.execute();

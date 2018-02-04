@@ -1,27 +1,51 @@
 <idea-plugin>
     <id>com.niloy.intellijplugin.swap</id>
     <name>Swap</name>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <vendor email="support@niloy.net" url="http://www.niloy.net">Niloy</vendor>
 
     <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
+<h1>About:</h1>
+<p>Swap is an IntelliJ/JetBrains plugin that integrates "Swap" option in editor menu. Swap action copies selected code/text for future use and replace the selected code/text with previous clipboard one.</p>
+<p>&nbsp;</p>
+<h1>How it works:</h1>
+<p><img src="https://github.com/sajjad-ahmed/Swap-IntelliJ-Plugin/download/how-it-works.gif" /></p>
+<p>&nbsp;</p>
+<h1>How to install:</h1>
+<h3>Method 1(from IntelliJ plugin Repository):</h3>
+<ul>
+<li>go to File &gt;&gt; Settings &gt;&gt; Plugins &gt;&gt; Browse repositories</li>
+<li>Then search for "Swap"</li>
+<li>Select install (a software restart may require)</li>
+</ul>
+<p>&nbsp;</p>
+<h3>Method 2(manual installation):</h3>
+<ul>
+<li>Download the swap.jar from <a href="https://github.com/sajjad-ahmed/Swap-IntelliJ-Plugin/download/">GitHub</a>.</li>
+<li>go to File &gt;&gt; Settings &gt;&gt; Plugins &gt;&gt; Install Plugin From Disk</li>
+<li>Select the swap.jar file.</li>
+<li>Then select Ok</li>
+</ul>
     ]]></description>
 
     <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
+<h2>Version 1.0.1</h2>
+<ul>
+<li>Initial release</li>
+<li>compatible with all IntelliJ IDEs</li>
+</ul>
     ]]>
     </change-notes>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-    <idea-version since-build="111.0"/>
+    <idea-version since-build="131"/>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
-    <!-- uncomment to enable plugin in all products -->
+    <!--uncomment to enable plugin in all products -->
+    <!--<depends>com.intellij.modules.platform</depends>-->
     <depends>com.intellij.modules.lang</depends>
+
 
 
     <extensions defaultExtensionNs="com.intellij">
