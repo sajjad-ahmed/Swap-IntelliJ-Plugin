@@ -70,7 +70,6 @@ public class MainAction extends AnAction
             return;
         }
         Document editorDocument = editor.getDocument();
-        String editorText = editorDocument.getText();
         String finalPasteText = pasteText;
         new WriteCommandAction.Simple(e.getProject())
         {
